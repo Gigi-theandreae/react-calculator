@@ -1,0 +1,57 @@
+.digits-container {
+  margin-top: 1rem;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(4, 4rem);
+  grid-template-rows: minmax(4rem, auto) repeat(5, 4rem);
+
+  .button {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    cursor:pointer;
+  }
+  .zero {
+    grid-column: span 2;
+    background: #22272e;
+    color: #fdfdfd;
+    border: 1px solid #22272e;
+  }
+
+  .ac,
+  .reverse,
+  .percentage {
+    background: #a0a0a0;
+    color: black;
+    border: 1px solid #a0a0a0;
+  }
+
+  .division,
+  .multiple,
+  .minus,
+  .plus,
+  .calculate {
+    background: orange;
+    border: 1px solid orange;
+  }
+
+  .decimal,
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six,
+  .seven,
+  .eight,
+  .nine {
+    background: #22272e;
+    color: #fdfdfd;
+    border: 1px solid #22272e;
+  }
+}
+
+// #A0A0A0 light grey
+// #22272E dark grey
